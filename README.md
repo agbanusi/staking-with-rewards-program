@@ -17,12 +17,12 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 Connect your metamask wallet and enter an amount to stake and click on stake.
 
-### Testing
+### Testing with yarn test
 
 Run `ganache` in a terminal
-then in another terminal run `yarn test`
+and then in another terminal run `yarn test`
 
-Launches the test runner in the interactive watch mode.\
+This launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `yarn build`
@@ -37,7 +37,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### Live test
 
-To test the contract go to https://rinkeby.etherscan.io/address/0x804d0b9c099a8bfdae818970f64857aa28ffed5e
+To test the contract go to https://rinkeby.etherscan.io/address/0xa129c73e976633415C3c03D7F886BDeafF6A35f9
 
 Token is at 0xFab46E002BbF0b4509813474841E0716E6730136 , you can get some from https://erc20faucet.com/
 
