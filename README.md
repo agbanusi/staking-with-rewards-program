@@ -44,3 +44,8 @@ Token is at 0xFab46E002BbF0b4509813474841E0716E6730136 , you can get some from h
 Contract is at contract/BankSafe.sol and deployed at 0xa129c73e976633415C3c03D7F886BDeafF6A35f9 with 10 days set Time period
 
 Better GUI might be added in the future
+
+### Deployment to Rinkeby/ test networks
+
+Fill in the .env file and convert to .json using name `.secrets.json`, then run `truffle migrate --reset --network rinkeby`.
+You can update the `2_bank_migration.js` file in the migrations folder to token of choice and set time of choice in milliseconds.
